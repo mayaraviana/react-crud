@@ -22,6 +22,10 @@ function App(props) {
       <p>Hello {name} </p>
       <p>Hello {props.nome} </p>
       <MeuComboBox />
+      <div className="d-grid gap-2">
+        <button className="btn btn-lg btn-primary" type="button">Block button</button>
+        <button className="btn btn-lg btn-primary" type="button">Block button</button>
+      </div>
     </div>
   );
 }
