@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import Navbar from './components/navbar';
-import Home from './views/home';
 
-function App(props) {
+import Routes from './routes';
+
+function App() {
   return (
     <>
-      <Navbar />
-      <Home />
+      <div className="container">
+        <Navbar />
+        <Routes />
+      </div>
     </>
   );
 }
