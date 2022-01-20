@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
-  const url = '#';
   return (
     <div className="jumbotron">
       <h1 className="display-3">Bem Vindo!</h1>
@@ -11,9 +11,13 @@ function Home() {
       </p>
       <hr className="my-4" />
       <p className="lead">
-        <a className="btn btn-primary btn-lg" href={url} role="button">
+        <Link
+          className="btn btn-primary btn-lg"
+          to="/product-registration"
+          role="button"
+        >
           Cadastrar
-        </a>
+        </Link>
       </p>
     </div>
   );
