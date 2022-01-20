@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<p align="center">
+   <img src=".github/react-logo.png" width="100"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Basic Crud
 
-## Available Scripts
+[![Author](https://img.shields.io/badge/author-MayaraViana-61DBFB?style=flat-square)](https://github.com/MayaraViana)
+[![Languages](https://img.shields.io/github/languages/count/MayaraViana/react-crud?color=61DBFB&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/MayaraViana/react-crud?color=61DBFB&style=flat-square)](https://github.com/MayaraViana/react-crud/stargazers)
+[![Forks](https://img.shields.io/github/forks/MayaraViana/react-crud?color=61DBFB&style=flat-square)](https://github.com/MayaraViana/react-crud/network/members)
+[![Contributors](https://img.shields.io/github/contributors/MayaraViana/react-crud?color=61DBFB&style=flat-square)](https://github.com/MayaraViana/react-crud/graphs/contributors)
 
-In the project directory, you can run:
+> Basic product registration using React
+> <br />
 
-### `npm start`
+<p align="center"><img src=".github/print-home.png"/></p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# :pushpin: Table of Contents
 
-### `npm test`
+- [Features](#rocket-features)
+- [Installation](#construction_worker-installation)
+- [Getting Started](#runner-getting-started)
+- [FAQ](#postbox-faq)
+- [Found a bug? Missing a specific feature?](#bug-issues)
+- [Contributing](#tada-contributing)
+- [License](#closed_book-license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :rocket: Features
 
-### `npm run build`
+- Register product
+- Delete product
+- Edit product
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Obs: Some functions are not implemented yet**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# :construction_worker: Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**You need to install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) first, then in order to clone the project via HTTPS, run this command:**
 
-### `npm run eject`
+`git clone https://github.com/MayaraViana/react-crud.git`
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
+`git clone git@github.com:MayaraViana/react-crud.git`
+**Install dependencies**
+`yarn install`
+**Running the project**
+`yarn start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# :postbox: Tecnologies I used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**What are the technologies used in this project?**
+The tecnologies used in this project are [NodeJS](https://nodejs.org/en/) + [React.js](https://pt-br.reactjs.org/) to develop amazing views & [SCSS](https://sass-lang.com/documentation/syntax) to handle the styles architecture and a better maintenance than normal CSS.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# :bug: Issues
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to **file a new issue** with a respective title and description on the the [React-crud](https://github.com/MayaraViana/react-crud/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
-## Learn More
+# :closed_book: License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Released in 2020.
+This project is under the [MIT license](https://github.com/MayaraViana/react-crud/blob/master/LICENSE).
+Made with love by [Mayara Viana](https://github.com/MayaraViana) 💜😄
