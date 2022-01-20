@@ -21,7 +21,7 @@
 
 - [Features](#rocket-features)
 - [Installation](#construction_worker-installation)
-- [Tecnologies I used](#postbox-faq)
+- [Tecnologies I used](#postbox-tecnologies-i-used)
 - [Found a bug? Missing a specific feature?](#bug-issues)
 - [License](#closed_book-license)
 
